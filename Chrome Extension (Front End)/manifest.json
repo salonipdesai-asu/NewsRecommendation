@@ -1,0 +1,23 @@
+{
+ "manifest_version": 2,
+ "name": "fakeNews",
+ "description": "Check the reliability of the news you are reading",
+ "version": "1.0",
+ "author": "Jas Haria",
+ "icons": {
+ "128": "fakeNews.png",
+ "48": "fakeNews.png",
+ "16": "fakeNews.png"
+ },
+"browser_action": {
+   "default_title": "Check the reliability of the news you are reading",
+   "default_popup": "popup.html"
+ },
+ "permissions": [
+ "http://*/*",
+ "https://*/*",
+ "tabs",
+ "identity",
+ "identity.email"
+ ]
+}

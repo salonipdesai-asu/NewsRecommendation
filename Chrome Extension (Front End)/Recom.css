@@ -1,0 +1,85 @@
+.row {
+  	height: 300px;
+  	color: white;
+  	text-align: left;
+}
+
+.col-md-2 {
+	margin-top: 70px;
+}
+
+.col-md-7 {
+	margin-top: 20px;
+}
+
+.col-md-3 {
+	margin-top: 90px;
+}
+
+#row1 {
+	background-image: linear-gradient(to right, #C269FE, #74FEF8);
+}
+
+#row2 {
+	background-image: white;
+}
+
+#row3 {
+	background-color: #606060;
+}
+
+#row4 {
+	background-image: white;
+}
+
+#row5 {
+	background-image: linear-gradient(to right, #FFBD82, #FF8E8E);
+}
+
+a {
+	padding: 25px 35px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-weight: bolder;
+	font-family: "Calibri";
+	font-size: 30px;
+}
+
+
+#r1 {
+	background-color: #606060;
+  	color: white;	
+}
+
+#r2 {
+	background-image: linear-gradient(to right, #C269FE, #74FEF8);
+  	color: white;
+}
+
+#r3 {
+	background-color: white;
+  	color: #606060;
+}
+
+#r4 {
+	background-image: linear-gradient(to right, #FFBD82, #FF8E8E);
+  	color: white;
+}
+
+#r5 {
+	background-color: #606060;
+  	color: white;
+}
+
+#white1 {
+	color: #606060;
+}
+
+#white2 {
+	color: #606060;
+}
+
+h1 {
+	font-weight: bolder;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Reliability Check</title>
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="popup.js"></script>
+		<link rel="stylesheet" href="w3.css">
+	</head>
+	<body>
+		<div id="postCheck" class="w3-padding">
+			<h3>Reliabilty</h3>
+			<div class="w3-light-grey" style="width:100%">
+				<div id="outputRIBar" class="w3-blue" style=""></div>
+			</div>
+			<h3>Polarity</h3>
+			<div class="w3-light-grey" style="width:100%">
+				<div id="outputPIBar" class="" style=""></div>
+			</div>
+			<h3>Subjectivity</h3>
+			<div class="w3-light-grey" style="width:100%">
+				<div id="outputSIBar" class="w3-yellow" style=""></div>
+			</div>
+		</div>
+		<table class="w3-table">
+			<tr>
+				<div class="w3-padding-large">
+					<button type="button" class="w3-button w3-black w3-hover-blue w3-xxlarge" id="button">Check</button>
+				</div>
+			</tr>
+			<tr>
+				<td><button class="w3-button w3-ronud w3-hover-green w3-small" id="like">
+					<img src="like.png" style="height:30px;width=30px;" id="likeImg">
+				</button></td>
+				<td><button class="w3-button w3-round w3-hover-red w3-small" id="dislike">
+					<img src="like.png" style="height:30px;width=30px;transform:rotate(180deg);" id="dislikeImg">
+				</button></td>
+			</tr>
+			<tr><td colspan=2>
+				<button type="button" class="w3-button w3-black w3-hover-blue w3-medium" id="recommended">Recommended></button>
+			</td></tr>
+		</table>
+	</body>
+</html>
